@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--  Primary Colours  -->
+    <Color x:Key="primaryColorOrange">#cc511c</Color>
+    <Color x:Key="primaryColorRed">#bb1e1e</Color>
+    <Color x:Key="primaryColorBlack">#030303</Color>
+    <Color x:Key="primaryColorPureBlack">#000000</Color>
+    <Color x:Key="primaryColorWhite">#FFFFFF</Color>
+    <Color x:Key="primaryColorSilver">#B8B8B8</Color>
+
+    <!--  Secondary Colours  -->
+    <Color x:Key="secondaryColorGray">#1f1f1f</Color>
+
+    <SolidColorBrush x:Key="primaryColorOrangeBrush" Color="{StaticResource primaryColorOrange}" />
+    <SolidColorBrush x:Key="primaryColorRedBrush" Color="{StaticResource primaryColorRed}" />
+    <SolidColorBrush x:Key="primaryColorBlackBrush" Color="{StaticResource primaryColorBlack}" />
+    <SolidColorBrush x:Key="primaryColorPureBlackBrush" Color="{StaticResource primaryColorPureBlack}" />
+    <SolidColorBrush x:Key="primaryColorWhiteBrush" Color="{StaticResource primaryColorWhite}" />
+    <SolidColorBrush x:Key="primaryColorSilverBrush" Color="{StaticResource primaryColorSilver}" />
+    <SolidColorBrush x:Key="secondaryColorGrayBrush" Color="{StaticResource secondaryColorGray}" />
+
+
+    <SolidColorBrush
+        x:Key="opaqueColorSilverBrush"
+        Opacity="0.2"
+        Color="{StaticResource primaryColorSilver}" />
+    <SolidColorBrush
+        x:Key="opaqueColorOrangeBrush"
+        Opacity="0.2"
+        Color="{StaticResource primaryColorOrange}" />
+    <SolidColorBrush
+        x:Key="opaqueColorGrayBrush"
+        Opacity="0.2"
+        Color="{StaticResource secondaryColorGray}" />
+
+
+</ResourceDictionary>

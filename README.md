@@ -1,4 +1,5 @@
 # f1-car-manager
 A windows desktop application to manage all aspects of a Formula 1 car based on C# and WPF
-![image](https://github.com/user-attachments/assets/a869faa3-ed15-4f6f-8f34-3e622ca4d8a0)
+<img width="1112" alt="image" src="https://github.com/user-attachments/assets/bb24b812-14d8-4603-b274-758376a5bea2">
+
 
